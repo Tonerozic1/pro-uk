@@ -1,11 +1,81 @@
-body{
-    width: 100% !important;
-    height: 100% !important;
-    background: green;
+body {
+  width: 100% !important;
+  height: 100% !important;
+  background: whitesmoke;
+  font-family: outfit !important;
+  padding: 0;
+  margin: 0;
+  cursor: default;
 }
-#navbarTogglerDemo01{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+#navbarTogglerDemo01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.links-wrap {
+  margin-right: 20px;
+}
+.links {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #fff;
+}
+a.navbar-brand {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: outfit;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+a.navbar-brand:hover {
+  color: #fff;
+}
+sub {
+  font-size: 0.8rem;
+  margin-top: -5px;
+  color: rgba(20, 19, 19, 0.904);
+}
+section.nav-cover nav {
+  background-color: rgb(92, 196, 92) !important;
+}
+.sub-nav{
+  background-color: #141313;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sec-details{
+  display: flex;
+}
+a.mail{
+  margin-left: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #fff;  
+  border-left: 2px solid #fff;
+}
+.qoute{
+  background-color:  rgb(92, 196, 92);
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.qoute a{
+  text-decoration: none;
+  color: #fff;
+}
+.days{
+    text-transform: capitalize;
+
 }
