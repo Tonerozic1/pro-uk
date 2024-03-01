@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Orion logistics</title>
   </head>
   <body>
-    <section class="nav-cover">
+    <section class="nav-cover sticky-top">
       <div class="sub-nav">
         <div class="sec-details">
           <div class="days">mon - fri 08:00 - 18:00</div>
-          <a href="mailto:anthonyekpeh@gmail.com" class="mail">info@orionlogistics.com</a>
+          <a href="mailto:anthonyekpeh@gmail.com" class="mail"
+            >info@orionlogistics.com</a
+          >
         </div>
         <div class="qoute">
           <a href="#" class="qoute-box">get qoute</a>
         </div>
       </div>
-        
+
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <button
@@ -35,16 +41,52 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand">orion <sub>logistics</sub></a>
             <div class="links-warp">
-                <a href="#" class="links">track</a>
-                <a href="#" class="links">contact</a>
-                <a href="#" class="links">get a qoute</a>
-                <a href="#" class="links">about us</a>
-              
+              <a href="#" class="links">track</a>
+              <a href="#" class="links">contact</a>
+              <a href="#" class="links">get a qoute</a>
+              <a href="#" class="links">about us</a>
             </div>
           </div>
         </div>
       </nav>
     </section>
+    <!--Navbar ends hear-->
+    <section class="one">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active boxed" data-bs-interval="10000">
+      <img src="./images/bernd-dittrich-P_-S57fiFwE-unsplash.jpg" class="d-block w-100" alt="home photo">
+      <div class="caption-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, 
+      </div>
+    </div>
+    <div class="carousel-item boxed" data-bs-interval="2000">
+      <img src="./images/nigel-tadyanehondo-GOD2mDNujuU-unsplash.jpg" class="d-block w-100" alt="photo number 2">
+      <div class="caption-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div class="carousel-item boxed" data-bs-interval="3000">
+      <img src="./images/wolfgang-hasselmann-nbRgZltoOck-unsplash.jpg" class="d-block w-100" alt="photo number 3">
+      <div class="caption-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Q
+      </div> 
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> 
   </body>
-  <script href="./java/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./java/bootstrap.bundle.js"></script>
 </html>
