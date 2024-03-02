@@ -84,6 +84,7 @@ div.boxed {
   height: 85vh;
   position: relative;
   object-fit: cover;
+  transition: ease 1100ms;
 }
 div.boxed img {
   width: 100%;
@@ -118,4 +119,31 @@ section.two{
   width: 100%;
   height: 70vh;
   background-color: antiquewhite;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.boxed-image-wrap{
+  width: 80%;
+  height: 60%;
+  background-color: aquamarine;
+  margin-top: -25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+div.boxes{
+  width: 25%;
+  height: 100%;
+  background-color: brown;
+    border-radius: 10px;
+
+}
+div.boxes img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
