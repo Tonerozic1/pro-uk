@@ -46,7 +46,7 @@ sub {
   color: rgba(20, 19, 19, 0.904);
 }
 section.nav-cover nav {
-  background-color: rgb(92, 196, 92) !important;
+  background-color: #F19A0E !important;
 }
 .sub-nav {
   background-color: #1a1a1a;
@@ -68,10 +68,12 @@ a.mail {
   border-left: 2px solid #fff;
 }
 .qoute {
-  background-color: rgb(92, 196, 92);
+  background-color: #F19A0E;
   margin-right: 10px;
   padding: 5px 10px;
   border-radius: 4px;
+  text-transform: capitalize;
+  text-decoration: underline;
 }
 .qoute a {
   text-decoration: none;
@@ -116,7 +118,7 @@ div.cap-text-small {
   text-transform: capitalize;
   color: #fff;
 }
-section.two{
+section.two {
   width: 100%;
   height: 70vh;
   background-color: #fff;
@@ -125,7 +127,7 @@ section.two{
   flex-direction: column;
   align-items: center;
 }
-div.boxed-image-wrap{
+div.boxed-image-wrap {
   width: 80%;
   height: 60%;
   margin-top: -25px;
@@ -134,20 +136,19 @@ div.boxed-image-wrap{
   flex-wrap: wrap;
   border-radius: 10px;
 }
-div.boxes{
+div.boxes {
   width: 25%;
   height: 100%;
   overflow: hidden;
 }
-div.boxes:first-child{
+div.boxes:first-child {
   background-image: url(../images/workers.png);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-position: right;
   background-size: cover;
-
 }
-div.psudo{
+div.psudo {
   width: 100%;
   height: 100%;
   background-color: #1a1a1aab;
@@ -157,34 +158,34 @@ div.psudo{
   font-size: 1.3rem;
   color: #fff;
 }
-div.psudo:nth-of-type(4){
+div.psudo:nth-of-type(4) {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-div.boxes:nth-of-type(4){
-    background-position: center;
+div.boxes:nth-of-type(4) {
+  background-position: center;
   background-size: cover;
-   border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-image: url(../images/two-colleagues-factory_1303-14331.jpg);
 }
-div.boxes:nth-of-type(2){
-    background-position: center;
+div.boxes:nth-of-type(2) {
+  background-position: center;
   background-size: cover;
   background-image: url(../images/blue-trucks.jpg);
 }
-div.boxes:nth-of-type(3){
-    background-position: left;
+div.boxes:nth-of-type(3) {
+  background-position: left;
   background-size: cover;
   background-image: url(../images/trucks.jpg);
 }
-div.text-wrap{
+div.text-wrap {
   width: 100%;
   height: 40%;
   display: flex;
   flex-direction: row;
 }
-div.text-wrap div{
+div.text-wrap div {
   padding: 0px 20px;
   display: flex;
   align-items: center;
@@ -192,32 +193,103 @@ div.text-wrap div{
   text-transform: capitalize;
   font-size: 1rem;
 }
-.text-one{
-   width: 50%;
-   font-size: 2.3rem !important;
-   font-weight: 700;
+.text-one {
+  width: 50%;
+  font-size: 2.3rem !important;
+  font-weight: 700;
 }
-section.three{
+section.three {
   width: 100%;
   height: fit-content;
-  padding: 30px 0px 30px 30px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.div-wrap-one{
+.div-wrap-one {
   width: 40%;
   color: #fff;
 }
-.title-sec{
+.title-sec {
   text-transform: capitalize;
   font-size: 1.8rem;
   font-weight: 200;
 }
-.bold-sec{
+.bold-sec {
   font-size: 700;
   font-size: 3rem;
   text-transform: capitalize;
   margin-top: 10px;
 }
-.info-sec{
+.info-sec {
   margin-top: 20px;
+}
+div.image-carrier {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+div.image-carrier:nth-of-type(1) {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/wolfgang-hasselmann-nbRgZltoOck-unsplash.jpg);
+}
+div.image-carrier:nth-of-type(2) {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url(../images/two-colleagues-factory_1303-14331.jpg);
+}
+div.image-carrier:nth-of-type(3) {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/1.jpg);
+  /* background-repeat: no-repeat; */
+}
+div.image-carrier:nth-of-type(4) {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/Picture3.jpg);
+}
+div.div-wrap-two {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  filter: brightness(0.7);
+}
+.dark-div{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a4b;
+}
+.icon-wrap{
+  width: 200px;
+  margin-top: -135px;
+}
+.icon-wrap img{
+  width: 100%;
+}
+.text-wrap{
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.map-img{
+   width: 2004px;
+  margin-top: -135px;
 }
