@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   cursor: default;
+  font-size: 1rem;
 }
 #navbarTogglerDemo01 {
   display: flex;
@@ -118,7 +119,7 @@ div.cap-text-small {
 section.two{
   width: 100%;
   height: 70vh;
-  background-color: antiquewhite;
+  background-color: #fff;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -127,23 +128,96 @@ section.two{
 div.boxed-image-wrap{
   width: 80%;
   height: 60%;
-  background-color: aquamarine;
   margin-top: -25px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-    border-radius: 10px;
-
+  border-radius: 10px;
 }
 div.boxes{
   width: 25%;
   height: 100%;
-  background-color: brown;
-    border-radius: 10px;
+  overflow: hidden;
+}
+div.boxes:first-child{
+  background-image: url(../images/workers.png);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-position: right;
+  background-size: cover;
 
 }
-div.boxes img{
+div.psudo{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-color: #1a1a1aab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #fff;
+}
+div.psudo:nth-of-type(4){
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+div.boxes:nth-of-type(4){
+    background-position: center;
+  background-size: cover;
+   border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: url(../images/two-colleagues-factory_1303-14331.jpg);
+}
+div.boxes:nth-of-type(2){
+    background-position: center;
+  background-size: cover;
+  background-image: url(../images/blue-trucks.jpg);
+}
+div.boxes:nth-of-type(3){
+    background-position: left;
+  background-size: cover;
+  background-image: url(../images/trucks.jpg);
+}
+div.text-wrap{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+}
+div.text-wrap div{
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.text-one{
+   width: 50%;
+   font-size: 2.3rem !important;
+   font-weight: 700;
+}
+section.three{
+  width: 100%;
+  height: fit-content;
+  padding: 30px 0px 30px 30px;
+  background-color: #1A1A1A;
+}
+.div-wrap-one{
+  width: 40%;
+  color: #fff;
+}
+.title-sec{
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+.bold-sec{
+  font-size: 700;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.info-sec{
+  margin-top: 20px;
 }
