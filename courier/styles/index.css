@@ -184,6 +184,7 @@ div.text-wrap {
   height: 40%;
   display: flex;
   flex-direction: row;
+    padding-left: 25px;
 }
 div.text-wrap div {
   padding: 0px 20px;
@@ -209,6 +210,7 @@ section.three {
 .div-wrap-one {
   width: 40%;
   color: #fff;
+  padding: 0px 15px 0px 35px;
 }
 .title-sec {
   text-transform: capitalize;
@@ -280,7 +282,7 @@ div.div-wrap-two {
 .icon-wrap img{
   width: 100%;
 }
-.text-wrap{
+div.image-carrier .text-wrap{
   text-transform: capitalize;
   color: #fff;
   margin-top: 20px;
@@ -290,6 +292,14 @@ div.div-wrap-two {
   justify-content: center;
 }
 .map-img{
-   width: 2004px;
+   width: 200px;
+  margin-top: -125px;
+  margin-left: 80px;
+}
+.image-dip{
   margin-top: -135px;
+  margin-left: 80px;
+}.image-tip{
+  margin-top: -85px;
+  margin-left: 80px;
 }
