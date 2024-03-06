@@ -46,7 +46,7 @@ sub {
   color: rgba(20, 19, 19, 0.904);
 }
 section.nav-cover nav {
-  background-color: #F19A0E !important;
+  background-color: #f19a0e !important;
 }
 .sub-nav {
   background-color: #1a1a1a;
@@ -68,7 +68,7 @@ a.mail {
   border-left: 2px solid #fff;
 }
 .qoute {
-  background-color: #F19A0E;
+  background-color: #f19a0e;
   margin-right: 10px;
   padding: 5px 10px;
   border-radius: 4px;
@@ -184,7 +184,7 @@ div.text-wrap {
   height: 40%;
   display: flex;
   flex-direction: row;
-    padding-left: 25px;
+  padding-left: 25px;
 }
 div.text-wrap div {
   padding: 0px 20px;
@@ -265,7 +265,7 @@ div.div-wrap-two {
   flex-wrap: wrap;
   filter: brightness(0.7);
 }
-.dark-div{
+.dark-div {
   position: absolute;
   top: 0;
   width: 100%;
@@ -275,14 +275,14 @@ div.div-wrap-two {
   align-items: center;
   background-color: #1a1a1a4b;
 }
-.icon-wrap{
+.icon-wrap {
   width: 200px;
   margin-top: -135px;
 }
-.icon-wrap img{
+.icon-wrap img {
   width: 100%;
 }
-div.image-carrier .text-wrap{
+div.image-carrier .text-wrap {
   text-transform: capitalize;
   color: #fff;
   margin-top: 20px;
@@ -291,15 +291,75 @@ div.image-carrier .text-wrap{
   display: flex;
   justify-content: center;
 }
-.map-img{
-   width: 200px;
+.map-img {
+  width: 200px;
   margin-top: -125px;
   margin-left: 80px;
 }
-.image-dip{
+.image-dip {
   margin-top: -135px;
   margin-left: 80px;
-}.image-tip{
+}
+.image-tip {
   margin-top: -85px;
   margin-left: 80px;
+}
+div.right-div {
+  width: 50%;
+  padding: 20px 10px 20px 35px;
+}
+.head-bold {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.head-bold::after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f19a0e;
+}
+.head-bold::before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #f19a0e;
+}
+.right-text {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+div.left-div{
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.photo-div{
+  width: 90%;
+  height: 90%;
+  background-color: #1a1a1a;
+}
+section.four{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+div.photo-div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
