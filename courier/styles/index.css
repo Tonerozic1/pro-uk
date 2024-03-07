@@ -8,6 +8,7 @@ body {
   margin: 0;
   cursor: default;
   font-size: 1rem;
+  color: #1a1a1a;
 }
 #navbarTogglerDemo01 {
   display: flex;
@@ -192,7 +193,6 @@ div.text-wrap div {
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
-  font-size: 1rem;
 }
 .text-one {
   width: 50%;
@@ -336,30 +336,113 @@ div.right-div {
 }
 .right-text {
   margin-top: 20px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: capitalize;
 }
-div.left-div{
+div.left-div {
   width: 50%;
   height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-div.photo-div{
+div.photo-div {
   width: 90%;
   height: 90%;
   background-color: #1a1a1a;
 }
-section.four{
+section.four {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 30px 0px;
 }
-div.photo-div img{
+div.photo-div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.first-div-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image-holder,
+.about-text-holder {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+.image-carrier-wrap {
+  width: 500px;
+  height: 550px;
+}
+.image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -55px;
+}
+section.five {
+  background-color: #e7e7e7;
+  position: relative;
+}
+.title-holder {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.semi {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 40px 0px;
+}
+.what-we-do {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 0px;
+  background-color: #fff;
+}
+.bold-title {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  position: relative;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+.bold-title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #f19a0e;
+  border-radius: 3px;
+  bottom: 0;
+  left: 0;
+}
+.bold-wrapper-div {
+  display: flex;
+  justify-content: center;
+}
+.sim {
+  margin: 40px;
+  border: 1px solid #f19a0e !important;
+  cursor: pointer;
+}
+.text-s {
+  text-align: center;
+  margin: 25px 0px;
+}
+.how-we-can-help{
+  width: 100%;
+  background-color: #e7e7e7;
+  padding: 40px 0px;
 }
