@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="./styles/bootstrap.min.css" />
     <link
       rel="stylesheet"
+      href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-      <link rel="icon" href="./images/logo-orion.png" type="image">
+    <!-- <link rel="icon" href="./images/logo-orion.png" type="image"> -->
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Orion logistics</title>
   </head>
@@ -40,7 +44,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand img-logo"><img src="./images/logo-orion.png" alt=""></a>
+            <a class="navbar-brand">orion<span>logistics</span></a>
             <div class="links-warp">
               <a href="#" class="links">track</a>
               <a href="#" class="links">contact</a>
@@ -255,7 +259,7 @@
             <img src="./images/project-5-1.jpg" alt="factory worker" />
           </div>
         </div>
-        <div class="about-text-holder">
+        <div class="about-text-holder" id="about">
           <div class="title-holder">about us</div>
           <div class="semi">
             orion logistics, offers fast courier delivery and tracking services
@@ -324,29 +328,46 @@
           <div class="ship-img-carrier">
             <div class="main-img-wrap">
               <div class="card" style="width: 20rem">
-                <img src="./images/42.jpg" class="card-img-top" alt="company workers" />
+                <img
+                  src="./images/42.jpg"
+                  class="card-img-top"
+                  alt="company workers"
+                />
                 <div class="card-body bip">
                   <h5 class="card-title text-center">our strategy</h5>
-                  <p class="card-text text-center ">
-                    We utilize sea transport, air freight services, Vehicle/Home Delivery services to meet our customers on time delivery service.
+                  <p class="card-text text-center">
+                    We utilize sea transport, air freight services, Vehicle/Home
+                    Delivery services to meet our customers on time delivery
+                    service.
                   </p>
                 </div>
               </div>
               <div class="card" style="width: 20rem">
-                <img src="./images/log22.jpg" class="card-img-top" alt="company workers" />
+                <img
+                  src="./images/log22.jpg"
+                  class="card-img-top"
+                  alt="company workers"
+                />
                 <div class="card-body bip">
                   <h5 class="card-title text-center">our logistics</h5>
-                  <p class="card-text text-center ">
-                    We provide standard domestic and international parcel pick-up, delivery and return solutions for business customers and consumers
+                  <p class="card-text text-center">
+                    We provide standard domestic and international parcel
+                    pick-up, delivery and return solutions for business
+                    customers and consumers
                   </p>
                 </div>
               </div>
               <div class="card" style="width: 20rem">
-                <img src="./images/a-best-for-warehouse-w-2-logos-1-1-1024x707.jpg" class="card-img-top" alt="company workers" />
+                <img
+                  src="./images/a-best-for-warehouse-w-2-logos-1-1-1024x707.jpg"
+                  class="card-img-top"
+                  alt="company workers"
+                />
                 <div class="card-body bip">
                   <h5 class="card-title text-center">our storage</h5>
-                  <p class="card-text text-center ">
-                      We secure your shipment against Air disaster, worry less while shipping with us.
+                  <p class="card-text text-center">
+                    We secure your shipment against Air disaster, worry less
+                    while shipping with us.
                   </p>
                 </div>
               </div>
@@ -354,9 +375,181 @@
           </div>
         </div>
       </div>
+      <div class="services">
+        <div class="cards-wrapper">
+          <div class="card" style="width: 25rem">
+            <div class="card-insides">
+              <div class="icon-carrier-wrap">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <div class="text-icon-wrap">
+                <h5>our goal</h5>
+                <p>
+                  To provide a fast, Secure and trustworthy network for a global
+                  thriving logistic company.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card top-g" style="width: 25rem">
+            <div class="card-insides">
+              <div class="icon-carrier-wrap">
+                <i class="fa-solid fa-braille"></i>
+              </div>
+              <div class="text-icon-wrap">
+                <h5>our vision</h5>
+                <p>
+                  Become a global leader among the top logistic companies in the
+                  world.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card top-g" style="width: 25rem">
+            <div class="card-insides">
+              <div class="icon-carrier-wrap">
+                <i class="fa-solid fa-plane-departure"></i>
+              </div>
+              <div class="text-icon-wrap">
+                <h5>parcel tracking</h5>
+                <p>
+                  The fast track service is swift and accessible 24/7 with live
+                  update of package location by clicking the track page and
+                  input tracking information.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card top-g" style="width: 25rem">
+            <div class="card-insides">
+              <div class="icon-carrier-wrap">
+                <i class="fa-solid fa-truck-plane"></i>
+              </div>
+              <div class="text-icon-wrap">
+                <h5>effiecent logistics</h5>
+                <p>
+                  Our flexible charges and fast tracking information keeps us as
+                  the best among our competitors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card top-g" style="width: 25rem">
+            <div class="card-insides">
+              <div class="icon-carrier-wrap">
+                <i class="fa-solid fa-cart-flatbed"></i>
+              </div>
+              <div class="text-icon-wrap">
+                <h5>shipping and services</h5>
+                <p>
+                  To utilize our service ensure you contact us for directions.
+                  We are available from: 9:00 A.M - 21:00 P.M.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card top-g" style="width: 25rem">
+            <div class="card-insides">
+              <div class="icon-carrier-wrap">
+                <i class="fa-solid fa-circle-info"></i>
+              </div>
+              <div class="text-icon-wrap">
+                <h5>support</h5>
+                <p>
+                  For Quick Support contact us via:
+                  <a href="mailto:info@orionlogistics.com" class="email"
+                    >info@orionlogistics.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-choose-us">
+        <div class="h5">why choose us?</div>
+        <div class="img-card-carrier">
+          <div class="image-wrapper-x">
+            <div class="ship-img-carrier">
+              <div class="main-img-wrap">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="./images/plaintransport-1-1-1536x864.jpg"
+                    class="card-img-top"
+                    alt="company workers"
+                  />
+                  <div class="card-body bip">
+                    <h5 class="card-title text-center">air cargo</h5>
+                    <p class="card-text text-center">
+                      Fast, secure and reliable shipping via our Air freight. We
+                      give you the best of experience with our service.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="./images/log22.jpg"
+                    class="card-img-top"
+                    alt="company workers"
+                  />
+                  <div class="card-body bip">
+                    <h5 class="card-title text-center">sea cargo</h5>
+                    <p class="card-text text-center">
+                      Fast, secure and reliable shipping via our sea vessles. We
+                      give you the best of experience with our service.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="./images/a-best-for-warehouse-w-2-logos-1-1-1024x707.jpg"
+                    class="card-img-top"
+                    alt="company workers"
+                  />
+                  <div class="card-body bip">
+                    <h5 class="card-title text-center">road freight</h5>
+                    <p class="card-text text-center">
+                      Fast, secure and reliable shipping via our Road
+                      logisticss. We give you the best of experience with our
+                      service.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-div">
+        <div class="section2">
+          <div class="link-photo-carrier"></div>
+          <div class="sec-link-carrier">
+            <a
+              href="https://www.youtube.com/watch?v=wtPB-VNNK2Q"
+              target="_blank"
+              ><i id="vid-link" class="fa-regular fa-circle-play"></i
+            ></a>
+            <p class="captor">see video introduction</p>
+            <p class="captor">
+              Take a tour and see how the greatest logistic company works
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="track-div-wrap">
+       <div class="dark-iv">
+         <div class="track-text">real time tracking service</div>
+        <div class="mid-track-text">
+          Received A Notificaton On Your Shipment With Tracking Info? Alright
+          Then, Click The Button Below To Get Current Status Of Your Package.
+        </div>
+        <div class="btn-carrier"><a href="#">track</a></div>
+       </div>
+      </div>
     </section>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./java/bootstrap.bundle.js"></script>
   </body>
 </html>
+<!-- https://www.youtube.com/watch?v=wtPB-VNNK2Q -->
