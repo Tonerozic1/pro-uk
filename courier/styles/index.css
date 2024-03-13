@@ -3,17 +3,18 @@
   --primary-color: #f19a0e;
   --primary-text-color: #1a1a1a;
   /* --secoundary-color: #F97C40; */
+  background: #f19a0e;
 }
 body {
   width: 100% !important;
   height: 100% !important;
-  background: whitesmoke;
   font-family: outfit !important;
   padding: 0;
   margin: 0;
   cursor: default;
   font-size: 1rem;
   color: #1a1a1a;
+  background-color: #fff;
 }
 #navbarTogglerDemo01 {
   display: flex;
@@ -31,25 +32,15 @@ body {
   font-size: 1.2rem;
   color: #fff;
 }
-a.img-logo {
-  width: 100px;
-  height: 100px;
+a.navbar-brand {
+  width: 250px;
+  height: 0% !important;
+  overflow: hidden;
+  border-radius: 10px;
 }
-a.img-logo img {
+a.navbar-brand img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
-}
-a.navbar-brand {
-  text-transform: capitalize;
-  font-size: 1.3rem;
-  font-weight: 500;
-  font-family: outfit;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 a.navbar-brand:hover {
   color: #fff;
@@ -60,7 +51,13 @@ sub {
   color: rgba(20, 19, 19, 0.904);
 }
 section.nav-cover nav {
-  background-color: var(--primary-color) !important;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  backdrop-filter: blur(
+    15px
+  ) !important; /* Adjust the blur amount as desired 
+  background-color: rgba(0, 0, 0, 0.411) !important; */
+  background-color: transparent !important;
 }
 .sub-nav {
   background-color: #1a1a1a;
@@ -96,9 +93,12 @@ a.mail {
 .days {
   text-transform: capitalize;
 }
+section.one {
+  margin-top: -130px;
+}
 div.boxed {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   position: relative;
   object-fit: cover;
   transition: ease 1100ms;
@@ -370,6 +370,7 @@ section.four {
   align-items: center;
   justify-content: center;
   padding: 30px 0px;
+  background-color: #ffffff;
 }
 div.photo-div img {
   width: 100%;
@@ -391,6 +392,7 @@ div.photo-div img {
   justify-content: center;
   flex-direction: column;
   text-transform: capitalize;
+  color: #fff;
 }
 .image-carrier-wrap {
   width: 500px;
@@ -403,7 +405,8 @@ div.photo-div img {
   margin-top: -55px;
 }
 section.five {
-  background-color: #e7e7e7;
+  background-color: #1a1a1a;
+
   position: relative;
 }
 .title-holder {
@@ -421,7 +424,7 @@ section.five {
   flex-direction: row;
   justify-content: space-around;
   padding: 50px 0px;
-  background-color: #fff;
+  background-color: #1a1a1a;
 }
 .bold-title {
   font-size: 1.4rem;
@@ -498,7 +501,7 @@ div.bip h5.card-title {
 }
 .services {
   width: 100%;
-  background-color: #1a1a1a;
+  background-color: transparent;
   padding: 35px 0px;
 }
 .cards-wrapper {
@@ -545,6 +548,7 @@ div.h5 {
 }
 .why-choose-us {
   padding: 35px 0px;
+  background-color: #ffffff;
 }
 .section2 {
   width: 100%;
@@ -687,14 +691,164 @@ div.btn-carrier button::after {
 div.btn-carrier button:hover:after {
   width: 100%;
 }
+.first-div-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.contact {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+.div-img-carrier {
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-img-carrier img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/*
+  I'LL COME BACK HERE
+.first-div-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ #form{
+  width: 100%;
+ }
+ div.col{
+  width: 400px !important;
+  background-color: #f19a0e;
+ }
+.top-write-up{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.top-write-up span {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+form.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-.text-icon-wrap {
+} */
+
+.main-contact {
+  background-attachment: grayscale;
 }
-.text-icon-wrap {
+.first-div-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px; /* Added padding */
 }
-.text-icon-wrap {
+
+.top-write-up {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 40px; /* Reduced margin */
 }
-.text-icon-wrap {
+
+.top-write-up span {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
 }
-.text-icon-wrap {
+
+form div.g-3 {
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dippe {
+  width: 50%;
+}
+
+#qoute {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  resize: none; /* Allow vertical resizing */
+  overflow: auto; /* Add scrollbar if content overflows */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  outline: none; /* Remove default outline */
+}
+
+#qoute:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+.div-right-clip {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-contact {
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+.div-left-clip{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-img-carrier{
+  width: 90%;
+  height: 80vh;
+}
+.div-img-carrier img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.main-div-contact{
+  width: 80%;
+  height: 90%;
+}
+.rip {
+  width: 160px;
+  background-color: #f19a0e;
+  color: #fff;
+  transition: ease 1000ms;
+}
+.rip:hover{
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.main-contact {
+}
+.main-contact {
 }
