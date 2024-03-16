@@ -17,7 +17,7 @@
     <title>Orion logistics</title>
   </head>
   <body>
-    <section class="nav-cover sticky-top" id="">
+    <section class="nav-cover sticky-top" id="main-nav">
       <div class="sub-nav">
         <div class="sec-details">
           <div class="days">mon - fri 08:00 - 18:00</div>
@@ -25,12 +25,17 @@
             >info@orionlogistics.com</a
           >
         </div>
-        <div class="qoute">
-          <a href="#" class="qoute-box">get qoute</a>
+        <div class="links-btn-wrap">
+          <div class="qoute">
+            <a href="#" class="qoute-box">track</a>
+          </div>
+          <div class="qoute">
+            <a href="#" class="qoute-box">get qoute</a>
+          </div>
         </div>
       </div>
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg" id="nav">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -87,22 +92,23 @@
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active boxed" data-bs-interval="10000">
+          <div class="carousel-item active boxed" data-bs-interval="1000">
             <img
               src="./images/bernd-dittrich-P_-S57fiFwE-unsplash.jpg"
               class="d-block w-100"
               alt="home photo"
             />
             <div class="caption-text">
-              <div class="cap-text-bold">transport and delivery experts</div>
-              <div class="cap-text-small">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo exercitationem voluptatem voluptatibus voluptate ab,
-                eos aliquid laudantium ex asperiores! Culpa totam voluptatum,
-                quaerat consectetur eius placeat optio ipsum suscipit, quibusdam
-                perspiciatis, recusandae aspernatur commodi eveniet dolores
-                impedit beatae quo aliquam? Excepturi qui commodi, repellendus
-                itaque impedit eum quo dignissimos numquam.
+              <div class="cap-text-wrap">
+                <div class="cap-text-bold">Orion Logistics</div>
+                <div class="cap-text-small">
+                  safety, quality and professionalism.
+                </div>
+              </div>
+              <div class="btn-land-wrap">
+                <a href="#" class="btn-land">track</a>
+                or
+                <a href="#" class="btn-land">about us</a>
               </div>
             </div>
           </div>
@@ -112,16 +118,17 @@
               class="d-block w-100"
               alt="photo number 2"
             />
-            <div class="caption-text">
-              <div class="cap-text-bold">transport and delivery experts</div>
-              <div class="cap-text-small">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo exercitationem voluptatem voluptatibus voluptate ab,
-                eos aliquid laudantium ex asperiores! Culpa totam voluptatum,
-                quaerat consectetur eius placeat optio ipsum suscipit, quibusdam
-                perspiciatis, recusandae aspernatur commodi eveniet dolores
-                impedit beatae quo aliquam? Excepturi qui commodi, repellendus
-                itaque impedit eum quo dignissimos numquam.
+             <div class="caption-text">
+              <div class="cap-text-wrap">
+                <div class="cap-text-bold">Your modern logistics partner</div>
+                <div class="cap-text-small">
+                  special handling and extra services.
+                </div>
+              </div>
+              <div class="btn-land-wrap">
+                <a href="#" class="btn-land">track</a>
+                or
+                <a href="#" class="btn-land">about us</a>
               </div>
             </div>
           </div>
@@ -131,16 +138,17 @@
               class="d-block w-100"
               alt="photo number 3"
             />
-            <div class="caption-text">
-              <div class="cap-text-bold">transport and delivery experts</div>
-              <div class="cap-text-small">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo exercitationem voluptatem voluptatibus voluptate ab,
-                eos aliquid laudantium ex asperiores! Culpa totam voluptatum,
-                quaerat consectetur eius placeat optio ipsum suscipit, quibusdam
-                perspiciatis, recusandae aspernatur commodi eveniet dolores
-                impedit beatae quo aliquam? Excepturi qui commodi, repellendus
-                itaque impedit eum quo dignissimos numquam.
+             <div class="caption-text">
+              <div class="cap-text-wrap">
+                <div class="cap-text-bold">logistics beyond expectation</div>
+                <div class="cap-text-small">
+                  better solutions for better you.
+                </div>
+              </div>
+              <div class="btn-land-wrap">
+                <a href="#" class="btn-land">track</a>
+                or
+                <a href="#" class="btn-land">about us</a>
               </div>
             </div>
           </div>
@@ -204,34 +212,34 @@
         <div class="image-carrier">
           <div class="dark-div">
             <div class="text-wrap">transportation</div>
-            <div class="icon-wrap">
+            <!-- <div class="icon-wrap">
               <img
                 src="./images/Truck delivery service.gif"
                 alt="delivery van"
               />
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="image-carrier">
           <div class="text-wrap">logistics</div>
-          <div class="icon-wrap map-img">
+          <!-- <div class="icon-wrap map-img">
             <img
               src="./images/Global delivery.gif"
               alt="delivery man calling a customer"
             />
-          </div>
+          </div> -->
         </div>
         <div class="image-carrier">
           <div class="text-wrap">seemless delivery</div>
-          <div class="icon-wrap image-dip">
+          <!-- <div class="icon-wrap image-dip">
             <img src="./images/Delivery team.gif" alt="delivery van" />
-          </div>
+          </div> -->
         </div>
         <div class="image-carrier">
           <div class="text-wrap">execellent courier service</div>
-          <div class="icon-wrap image-tip">
+          <!-- <div class="icon-wrap image-tip">
             <img src="./images/Delivering Parcels.gif" alt="delivery van" />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -754,6 +762,20 @@ Hello, how can we be of help?</textarea
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./java/bootstrap.bundle.js"></script>
+    <!-- <script src="./java/cope-one.js"></script> -->
+    <script>
+      const navBar = document.getElementById("nav");
+      const miniNav = document.getElementById("main-nav");
+      window.onscroll = function () {
+        if (window.pageYOffset > 30) {
+          navBar.classList.add("nav-background")
+          miniNav.style.top = "-60px"
+        } else {
+          navBar.classList.remove("nav-background")
+           miniNav.style.top = "0"
+        }
+      };
+    </script>
   </body>
 </html>
-<!-- https://www.youtube.com/watch?v=wtPB-VNNK2Q -->
+<!-- https://www.easyglobalcouriers.com/-->

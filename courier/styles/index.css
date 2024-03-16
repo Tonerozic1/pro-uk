@@ -32,6 +32,10 @@ body {
   font-size: 1.2rem;
   color: #fff;
 }
+#main-nav {
+  background-color: transparent;
+  transition: ease 0.8s;
+}
 a.navbar-brand {
   width: 250px;
   height: 0% !important;
@@ -50,17 +54,37 @@ sub {
   margin-top: -10px;
   color: rgba(20, 19, 19, 0.904);
 }
-section.nav-cover nav {
-  background-color: transparent !important;
-}
 #nav {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 0.8s ease;
+}
+.nav-background {
+  backdrop-filter: blur(15px) !important;
+  background-color: #1a1a1ae0 !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: ease 0.8s;
+}
+/* #nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: transperent 0.3s ease; /* Add transition effect for smooth color change 
+}
+
+
+/* section.nav-cover nav {
+  background-color: transparent !important;
+} */
+/* #nav {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   backdrop-filter: blur(
     15px
   ) !important; 
   background-color: #1a1a1ad5 !important; 
-}
+} */
 .sub-nav {
   background-color: #1a1a1a;
   display: flex;
@@ -85,11 +109,15 @@ a.mail {
   margin-right: 10px;
   padding: 5px 10px;
   border-radius: 4px;
+  font-weight: 500;
   text-transform: capitalize;
   text-decoration: underline;
 }
-.qoute a {
-  text-decoration: none;
+.qoute a:first-child {
+    color: #f19a0e;
+}
+.qoute a:last-child{
+  background-color: #f19a0e;
   color: #fff;
 }
 .days {
@@ -110,6 +138,11 @@ div.boxed img {
   height: 100%;
   object-fit: cover;
 }
+.cap-text-small{
+  width: fit-content;
+  margin-inline: auto;
+  text-align: center;
+}
 div.caption-text {
   position: absolute;
   top: 0;
@@ -122,7 +155,7 @@ div.caption-text {
   justify-content: center;
 }
 div.cap-text-small {
-  margin-top: 20px;
+  margin-top: 0px;
   width: 80%;
   text-transform: capitalize;
   font-size: 1rem;
@@ -280,13 +313,17 @@ div.div-wrap-two {
   flex-wrap: wrap;
   filter: brightness(0.7);
 }
+.links-btn-wrap{
+  display: flex;
+
+}
 .dark-div {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   background-color: #1a1a1a4b;
 }
@@ -904,7 +941,9 @@ section.footer {
   flex-wrap: wrap;
   margin-top: 50px;
   padding-bottom: 50px;
+  padding-top: 50px;
   border-bottom: 1px solid #f19a0e;
+  border-top: 1px solid #f19a0e;
 }
 .div-one {
   width: 25%;
